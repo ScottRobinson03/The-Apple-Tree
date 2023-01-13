@@ -3,7 +3,6 @@ import { DynamoDBClient } from "@aws-sdk/client-dynamodb";
 import {
     // BatchWriteCommand,
     DynamoDBDocumentClient,
-    // PutCommand,
     ScanCommand,
 } from "@aws-sdk/lib-dynamodb";
 import * as dotenv from "dotenv";
