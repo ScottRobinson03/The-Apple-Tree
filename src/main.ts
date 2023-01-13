@@ -100,7 +100,7 @@ async function getChosenDrink() {
             return {
                 name: drink.name,
                 cost: `£${drink.cost.toFixed(2)}`,
-                alcohlic: ["no", "yes"][+drink.alcoholic],
+                alcoholic: ["no", "yes"][+drink.alcoholic],
             };
         })
     );
