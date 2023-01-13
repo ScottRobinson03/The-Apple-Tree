@@ -29,7 +29,7 @@ const ddbdClient = DynamoDBDocumentClient.from(
 );
 
 // async function insertDrinks() {
-//     const drinks: ServeDrinkInput["drink"][] = [
+//     const drinks: Drink[] = [
 //         {
 //             name: "Diet Coke",
 //             cost: 2.1,
